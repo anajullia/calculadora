@@ -1,5 +1,5 @@
-//Função que altera os inputs de valores e informações conforme a operação
-function mudarOpcao(){
+
+function mudarTipo(){
     const operador = document.querySelector("input[name=opcao]:checked").value;
     if((operador == "+")||(operador == "-")||(operador == "*")){
         document.getElementById("valor3_div").style.display = "none";
@@ -19,7 +19,7 @@ function mudarOpcao(){
     else if(operador == "radiciacao"){
         document.getElementById("valor3_div").style.display = "none";
         document.getElementById("label_valor_1").innerHTML = "Radicando";
-        document.getElementById("label_valor_2").innerHTML = "Índice da raiz";
+        document.getElementById("label_valor_2").innerHTML = "Índice";
     }
     else if(operador == "triangulo"){
         document.getElementById("valor3_div").style.display = "none";
@@ -34,7 +34,7 @@ function mudarOpcao(){
     }
 }
 
-//Calcula de acordo com os valores disponíveis
+//Calcula de acordo com os valores
 function calcular(){
     const operador = document.querySelector("input[name=opcao]:checked").value;
     if((operador == "+")||(operador == "-")||(operador == "*")||(operador == "/")){
