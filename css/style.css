@@ -1,5 +1,5 @@
 .body{
-    background-image: url("imagens/topoindeximg");
+    background-image: url("../imagens/fundoindex.png");
 }
 .topoindeximg{
     position: absolute;
@@ -7,6 +7,50 @@
     margin-top: -52px;
     margin-left: -9px;
     height: 30%;
+}
+
+.opbase{
+    margin-top: 150px;
+    width: auto;
+    height: auto;
+}
+
+.h2base{
+    font-family: Verdana;
+}
+
+.resultadobase{
+    font-size: 25px;
+    font-family: Verdana;
+}
+
+.radiosbase{
+    font-size: 40px;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+}
+
+.butbase{
+    text-align: center;
+    font-size: 25px;
+    width: 130px;
+    height: 45px;
+}
+
+.inputbase1{
+    font-size: 30px;
+    text-align: center;
+    border-radius: 100px;
+    width: 300px;
+    height: 80px;
+    margin: 5px;
+}
+
+.textobasicas{
+    font-family: Verdana;
+    font-size: 50px;
+    text-align: center;
 }
 
 .textoindex{
