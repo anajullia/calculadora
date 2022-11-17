@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/funcoes.js" type="text/javascript"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <img class="topoindeximg" src="imagens/topoindex.png">
+    <center>
+        <p class="textobasicas">Fórmula de Bhaskara</p>
+        <div class="alignbas">
+            <input type="text" id="A" class="inputbas" id="exampleFormControlTextarea1" placeholder="Digite o primeiro coeficiente (A)" id="A">
+
+                <input type="text" id="B" class="inputbas" id="exampleFormControlTextarea1" placeholder="Digite o segundo coeficiente (B)" id="B">
+
+                <input type="text" id="C" class="inputbas" id="exampleFormControlTextarea1" placeholder="Digite o terceiro coeficiente (C)" id="C">
+
+                <p  class="butbase" onclick="Bhaskara()">Calcular</p>
+                <p class="resbas1" id="resultado"></p>
+                <p class="resbas1" id="resultado1"></p>
+                <p class="resbas1" id="resultado2"></p>
+        </div>
+    </center>  
     
 </body>
 </html>
