@@ -1,5 +1,5 @@
 .body{
-    background-image: url("imagens/fundoindex.png");
+    background-image: url("imagens/topoindeximg");
 }
 .topoindeximg{
     position: absolute;
@@ -63,4 +63,12 @@
     height: 40px;
     margin-left: 41%;
     margin-top: 25%;
+}
+
+.btindex{
+    color: #f1e1f6;
+    font-family:Verdana;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
 }
