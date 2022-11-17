@@ -4,7 +4,7 @@
 .topoindeximg{
     position: absolute;
     width: 100%;
-    margin-top: 0;
+    margin-top: -52px;
     margin-left: -9px;
     height: 30%;
 }
@@ -13,4 +13,54 @@
     font-family: Verdana;
     font-size: 50px;
     text-align: center;
+}
+
+.btbase{
+    border-radius: 50px;
+    position: absolute;
+    background-color: #6337b9;
+    width: 300px;
+    height: 40px;
+    margin-left: 41%;
+    margin-top: 5%;
+}
+
+.btarea{
+    border-radius: 50px;
+    position: absolute;
+    background-color: #6337b9;
+    width: 300px;
+    height: 40px;
+    margin-left: 41%;
+    margin-top: 10%;
+}
+
+.btbas{
+    border-radius: 50px;
+    position: absolute;
+    background-color: #6337b9;
+    width: 300px;
+    height: 40px;
+    margin-left: 41%;
+    margin-top: 15%;
+}
+
+.btpot{
+    border-radius: 50px;
+    position: absolute;
+    background-color: #6337b9;
+    width: 300px;
+    height: 40px;
+    margin-left: 41%;
+    margin-top: 20%;
+}
+
+.btrad{
+    border-radius: 50px;
+    position: absolute;
+    background-color: #6337b9;
+    width: 300px;
+    height: 40px;
+    margin-left: 41%;
+    margin-top: 25%;
 }
