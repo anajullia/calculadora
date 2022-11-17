@@ -1,0 +1,16 @@
+.body{
+    background-image: url("imagens/fundoindex.png");
+}
+.topoindeximg{
+    position: absolute;
+    width: 100%;
+    margin-top: 0;
+    margin-left: -9px;
+    height: 30%;
+}
+
+.textoindex{
+    font-family: Verdana;
+    font-size: 50px;
+    text-align: center;
+}
