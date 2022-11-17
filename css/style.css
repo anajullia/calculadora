@@ -1,6 +1,19 @@
-.body{
+body{
     background-image: url("../imagens/fundoindex.png");
 }
+
+.calcarea{
+    position: absolute;
+    background-color: #6337b9;
+    width: auto;
+    height: 200px;
+}
+
+.resultadoarea{
+    font-family: Verdana;
+    font-size: 25px;
+}
+
 .topoindeximg{
     position: absolute;
     width: 100%;
@@ -32,7 +45,16 @@
 }
 
 .butbase{
+    font-family: Verdana;
     text-align: center;
+    font-size: 25px;
+    width: 130px;
+    height: 45px;
+}
+
+.butarea{
+    text-align: center;
+    margin-top: 500px;
     font-size: 25px;
     width: 130px;
     height: 45px;
@@ -42,6 +64,20 @@
     font-size: 30px;
     text-align: center;
     border-radius: 100px;
+    width: 300px;
+    height: 80px;
+    margin: 5px;
+}
+
+.alignarea{
+    margin-top: 170px;
+}
+
+.inputarea{
+    font-size: 30px;
+    text-align: center;
+    border-radius: 100px;
+    margin-top: 400px;
     width: 300px;
     height: 80px;
     margin: 5px;
