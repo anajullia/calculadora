@@ -83,8 +83,17 @@ body{
     margin: 5px;
 }
 
+.alignrad{
+    margin-top: 130px;
+}
+
 .resbas1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.respot{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
 
 .alignbas{
